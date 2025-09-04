@@ -1,0 +1,50 @@
+body{background-color: rgb(255, 248, 238);}
+
+.logo{
+    display: flex;
+    border: 12px rgb(255, 237, 198); 
+    width: auto;
+    height: 100px;
+    background-color: rgb(255, 222, 157);
+    justify-content:flex-start;
+    align-content: flex-end;
+}
+
+h1{color: rgb(255, 255, 255);
+    display:flex;
+align-content:flex-start;
+padding-left: 20px;}
+
+h1:hover{color: rgb(0, 0, 0);
+    display:flex;
+align-content:flex-start;
+padding-left: 20px;}
+
+.menubar{color: white;
+display: flex;
+flex-direction:row;
+justify-content: flex-end;
+padding-right: 23px;}
+
+nav{
+    display: flex;
+    justify-content:center;
+}
+
+#best{
+    display: flex;
+    justify-content:center;
+}
+
+.list{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.email{
+    display:flex;
+    justify-content:center;
+    
+}
